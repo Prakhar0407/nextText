@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "all": "^0.0.0",
-    "express": "^5.2.1",
+    "express": "^4.22.2",
     "socket.io": "^4.8.3",
     "uuid": "^14.0.0"
   }
