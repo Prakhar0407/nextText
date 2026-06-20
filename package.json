@@ -13,7 +13,8 @@
     "install:all": "npm install --prefix server && npm install --prefix client",
     "build": "npm run build --prefix client",
     "start": "NODE_ENV=production npm run start --prefix server",
-    "start:prod": "npm run build && npm run start"
+    "start:prod": "npm run build && npm run start",
+    "postinstall": "cd client && npm install && npm run build"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
