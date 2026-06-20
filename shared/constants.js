@@ -1,6 +1,6 @@
 // ── Game timing ──────────────────────────────────────────────────────────────
 
-export const WRITING_DURATION_MS = 20_000;
+export const WRITING_DURATION_MS = 40_000;
 export const VOTING_DURATION_MS = 5_000;
 export const RESULTS_DURATION_MS = 8_000;
 export const TYPING_BROADCAST_MS = 80;
